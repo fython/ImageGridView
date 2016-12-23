@@ -1,0 +1,12 @@
+<resources>
+
+	<string name="app_name">ImageGridView Demo</string>
+
+	<string name="menu_set_item_count">Placeholder count</string>
+
+	<string name="menu_set_image_loader">Image Loader</string>
+	<string name="menu_picasso">Picasso</string>
+	<string name="menu_glide">Glide</string>
+	<string name="menu_fresco">Fresco</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<declare-styleable name="ImageGridView">
+		<attr name="gridCalculatorClass" format="string"/>
+		<attr name="imageLoaderClass" format="string"/>
+		<attr name="imageCreatorClass" format="string"/>
+		<attr name="shouldIgnoreDataSaver" format="boolean"/>
+	</declare-styleable>
+
+</resources>
