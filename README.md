@@ -14,11 +14,25 @@
 
 First, introduce the core library (`:imagegridview` Module) to your project.
 
+Add the dependency:
+
+```
+dependencies {
+    compile 'moe.feng.common.imagegridview:imagegridview:1.0'
+}
+```
+
 It includes only ImageGridView, DefaultImageViewCreator and DefaultImageGridCalculator.
 
 So you need introduce a image loader library or write by yourself.
 
 If you want to use Picasso, you can choose PicassoImageLoader.
+
+```
+dependencies {
+    compile 'moe.feng.common.imagegridview:picassoimageloader:1.0'
+}
+```
 
 Besides, I also wrote GlideImageLoader, FrescoImageLoader for Glide/Fresco users.
 
