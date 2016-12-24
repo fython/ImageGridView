@@ -71,9 +71,9 @@ Learn [GridLayoutManager](https://developer.android.com/reference/android/suppor
 
 Email: fython#163.com
 
-通过支付宝捐赠支持 (Recommended): 316643843#qq.com
+通过支付宝捐赠支持: 316643843#qq.com
 
-Donate by Paypal: https://paypal.me/fython
+Donate by Paypal (Not recommended): https://paypal.me/fython
 
 ### License
 

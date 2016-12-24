@@ -12,11 +12,25 @@
 
 首先，引入核心库 (`:imagegridview` 模块) 到你的项目中。
 
+在依赖中加入:
+
+```
+dependencies {
+    compile 'moe.feng.common.imagegridview:imagegridview:1.0'
+}
+```
+
 它只包含 ImageGridView, DefaultImageViewCreator 和 DefaultImageGridCalculator。
 
 所以你需要引入一个图像加载库，或者自己写一个。
 
 如果你想使用 Picasso，请引入 PicassoImageLoader。
+
+```
+dependencies {
+    compile 'moe.feng.common.imagegridview:picassoimageloader:1.0'
+}
+```
 
 除此以外，我还写了 GlideImageLoader, FrescoImageLoader 提供给 Glide/Fresco 用户.
 
