@@ -14,7 +14,7 @@
 
 在依赖中加入:
 
-```
+```gradle
 dependencies {
     compile 'moe.feng.common.imagegridview:imagegridview:1.0'
 }
@@ -26,7 +26,7 @@ dependencies {
 
 如果你想使用 Picasso，请引入 PicassoImageLoader。
 
-```
+```gradle
 dependencies {
     compile 'moe.feng.common.imagegridview:picassoimageloader:1.0'
 }
@@ -38,12 +38,12 @@ dependencies {
 
 在 XML 代码（例子）:
 
-```
+```xml
 <moe.feng.common.imagegridview.ImageGridView
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:id="@+id/image_grid_view"
-			app:imageLoaderClass="moe.feng.common.imagegridview.loader.picasso.PicassoImageLoader"/>
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/image_grid_view"
+	app:imageLoaderClass="moe.feng.common.imagegridview.loader.picasso.PicassoImageLoader"/>
 ```
 
 用这一句来加载图片:
