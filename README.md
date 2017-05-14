@@ -16,7 +16,7 @@ First, introduce the core library (`:imagegridview` Module) to your project.
 
 Add the dependency:
 
-```
+```gradle
 dependencies {
     compile 'moe.feng.common.imagegridview:imagegridview:1.0'
 }
@@ -28,7 +28,7 @@ So you need introduce a image loader library or write by yourself.
 
 If you want to use Picasso, you can choose PicassoImageLoader.
 
-```
+```gradle
 dependencies {
     compile 'moe.feng.common.imagegridview:picassoimageloader:1.0'
 }
@@ -40,12 +40,12 @@ Besides, I also wrote GlideImageLoader, FrescoImageLoader for Glide/Fresco users
 
 In XML (For example) :
 
-```
+```xml
 <moe.feng.common.imagegridview.ImageGridView
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:id="@+id/image_grid_view"
-			app:imageLoaderClass="moe.feng.common.imagegridview.loader.picasso.PicassoImageLoader"/>
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/image_grid_view"
+	app:imageLoaderClass="moe.feng.common.imagegridview.loader.picasso.PicassoImageLoader"/>
 ```
 
 Load images in this way:
